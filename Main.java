@@ -1,13 +1,17 @@
-package day8;
+package Day10;
 
 public class Main {
-public static void main(String[] args) {
-	Calculator cal=new Calculator();
-	cal.addition(20,25);
-	cal.mul(5, 02);
-	cal.sub(35, 90);
-	cal.div(66, 77);
-	cal.modul(5, 7);
+	public static void main(String[] args) {
+		car car1 =new car();
+		car1.displaycardetails();
+		
+	car car2=new car("mahindra");
 	
-}
+	car2.displaycardetails();
+	
+	car car3=new car("tata",2024);
+	car3.displaycardetails();
+	
+
+	}
 }
